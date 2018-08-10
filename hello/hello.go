@@ -9,7 +9,7 @@ const french = "French"
 const frenchHelloPrefix = "Bonjour "
 
 // Hello function
-func Hello(name string, language string) string {
+func Hello(name, language string) string {
 	if name == "" {
 		name = "World!"
 	}
