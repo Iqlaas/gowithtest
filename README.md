@@ -1,0 +1,78 @@
+<div align="center">
+<img src="https://cacophony.org.nz/sites/default/files/gopher.png" height=250>
+<h1>Learn Go with tests</h1>
+<p><i>Or learn test-driven development with Go</i></p>
+
+[![GitHub](https://img.shields.io/github/license/Iqlaas/gowithtest.svg)](https://github.com/Iqlaas/gowithtest)
+
+</div><br>
+
+
+
+## Background
+I have some experience introducing Go to development teams and have tried different approaches as to how to grow a team from some people curious about Go into highly effective writers of Go systems.
+
+<br>
+
+### What didn't work
+
+#### Read *the* book
+
+An approach we tried was to take [the blue book](https://www.amazon.co.uk/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440) and every week discuss the next chapter along with the exercises.
+
+I love this book but it requires a high level of commitment. The book is very detailed in explaining concepts, which is obviously great but it means that the progress is slow and steady - this is not for everyone.
+
+I found that whilst a small number of people would read chapter X and do the exercises, many people didn't.
+
+<br>
+
+#### Solve some problems
+
+Katas are fun but they are usually limited in their scope for learning a language; you're unlikely to use goroutines to solve a kata.
+
+Another problem is when you have varying levels of enthusiasm. Some people just learn way more of the language than others and when demonstrating what they have done end up confusing people with features the others are not familiar with.
+
+This ends up making the learning feel quite *unstructured* and *ad hoc*.
+
+<br>
+
+### What did work
+
+By far the most effective way was by slowly introducing the fundamentals of the language by reading through [go by example](https://gobyexample.com/), exploring them with examples and discussing them as a group. This was a more interactive approach than "read chapter x for homework".
+
+Over time the team gained a solid foundation of the grammar of the language so we could then start to build systems.
+
+This to me seems analogous to practicing scales when trying to learn guitar.
+
+It doesn't matter how artistic you think you are, you are unlikely to write good music without understanding the fundamentals and practicing the mechanics.
+
+<br>
+
+### What works for me
+
+When ***I*** learn a new programming language I usually start by messing around in a REPL but eventually, I need more structure.
+
+What I like to do is explore concepts and then solidify the ideas with tests. Tests verify the code I write is correct and documents the feature I have learned.
+
+Taking my experience of learning with a group and my own personal way I am going to try and create something that hopefully proves useful to other teams. Learning the fundamentals by writing small tests so that you can then take your existing software design skills and ship some great systems.
+
+<br>
+
+## Who this is for
+
++ People who are interested in picking up Go
++ People who already know some Go, but want to explore testing more
+
+<br>
+
+## What you'll need
++ A computer!
++ [Installed Go](https://golang.org/)
++ A text editor
++ Some experience with programming. Understanding of concepts like `if`, variables, functions etc.
++ Comfortable with using the terminal
+
+<br>
+
+## Feedback
+[Add issues](https://github.com/Iqlaas/gowithtest/issues) or [tweet me @quii](https://twitter.com/quii)
